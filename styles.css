@@ -4,6 +4,13 @@ nav {
   justify-content: space-between;
   align-items: center;
   background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  opacity: 50%;
+}
+nav:hover {
+  opacity: 100%;
 }
 
 #Navigation-list a {
@@ -30,31 +37,46 @@ body {
   background-image: linear-gradient(white, gold);
 }
 
-#home-heading {
-  margin-left: 20px;
-}
 #home-images {
   display: flex;
   justify-content: center;
   border-top: solid 5px gold;
 }
 
+#home-heading {
+  margin-bottom: 100px;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 300%;
+}
+
+#mission-image {
+  border-radius: 20px;
+}
 #home-paragraph {
   font-size: xx-large;
-  margin-right: 25px;
+  margin-right: 50px;
   margin-left: 100px;
 }
 
 #home-image-and-paragraph {
   display: flex;
+  align-items: center;
 }
 
 #about-heading {
-  margin-left: 20px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 300%;
 }
 
+#about-image {
+  border-radius: 20px;
+}
 #about-image-and-paragraph {
   display: flex;
+  align-items: center;
 }
 #about-paragraph {
   font-size: xx-large;
@@ -62,29 +84,52 @@ body {
   margin-left: 100px;
 }
 #teachers-heading {
-  margin-left: 20px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 300%;
 }
 #teachers-info {
   display: flex;
   justify-content: space-around;
 }
 #teacher-mark {
-  border: solid 10px rgb(250, 232, 130);
+  text-align: center;
+  font-size: 150%;
+}
+#teacher-mark-image {
+  border-radius: 20px;
 }
 #teacher-brian {
-  border: solid 10px rgb(250, 232, 130);
+  text-align: center;
+  font-size: 150%;
+}
+
+#teacher-brian-image {
+  border-radius: 20px;
 }
 #teachers-paragraph {
   font-size: xx-large;
+  margin-top: 50px;
+  margin-bottom: 50px;
   margin-right: 25px;
   margin-left: 20px;
   text-align: center;
 }
+
+#contact {
+  background-image: linear-gradient(gold, white);
+  border-top: solid 10px gold;
+}
 #contact-heading {
+  margin-bottom: 50px;
+  margin-top: 100px;
   text-align: center;
+  font-size: 300%;
 }
 #contact-paragraph {
   text-align: center;
+  margin-bottom: 25px;
 }
 #contact-list {
   list-style: none;
