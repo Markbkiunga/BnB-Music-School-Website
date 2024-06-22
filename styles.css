@@ -120,6 +120,7 @@ body {
 #contact {
   background-image: linear-gradient(gold, white);
   border-top: solid 10px gold;
+  width: 100%;
 }
 #contact-heading {
   margin-bottom: 50px;
