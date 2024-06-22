@@ -1,0 +1,98 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+
+#Navigation-list a {
+  float: left;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: x-large;
+}
+
+#Navigation-list a:hover {
+  background-color: gold;
+  color: black;
+}
+
+#BnB-title {
+  font-size: x-large;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+body {
+  background-image: linear-gradient(white, gold);
+}
+
+#home-heading {
+  margin-left: 20px;
+}
+#home-images {
+  display: flex;
+  justify-content: center;
+  border-top: solid 5px gold;
+}
+
+#home-paragraph {
+  font-size: xx-large;
+  margin-right: 25px;
+  margin-left: 100px;
+}
+
+#home-image-and-paragraph {
+  display: flex;
+}
+
+#about-heading {
+  margin-left: 20px;
+}
+
+#about-image-and-paragraph {
+  display: flex;
+}
+#about-paragraph {
+  font-size: xx-large;
+  margin-right: 25px;
+  margin-left: 100px;
+}
+#teachers-heading {
+  margin-left: 20px;
+}
+#teachers-info {
+  display: flex;
+  justify-content: space-around;
+}
+#teacher-mark {
+  border: solid 10px rgb(250, 232, 130);
+}
+#teacher-brian {
+  border: solid 10px rgb(250, 232, 130);
+}
+#teachers-paragraph {
+  font-size: xx-large;
+  margin-right: 25px;
+  margin-left: 20px;
+  text-align: center;
+}
+#contact-heading {
+  text-align: center;
+}
+#contact-paragraph {
+  text-align: center;
+}
+#contact-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#footer-paragraph {
+  text-align: center;
+}
