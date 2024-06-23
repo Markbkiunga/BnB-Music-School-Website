@@ -119,27 +119,30 @@ body {
 }
 
 #contact {
-  background-image: linear-gradient(gold, white);
-  border-top: solid 10px gold;
+  background-image: linear-gradient(rgb(252, 222, 50), white);
+  border-top: solid 5px black;
   width: 100%;
 }
 #contact-heading {
   margin-bottom: 50px;
-  margin-top: 100px;
+  margin-top: 50px;
   text-align: center;
   font-size: 300%;
 }
 #contact-paragraph {
   text-align: center;
   margin-bottom: 25px;
+  font-size: x-large;
 }
 #contact-list {
   list-style: none;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
 }
 
 #footer-paragraph {
   text-align: center;
+  margin-bottom: 0px;
 }
