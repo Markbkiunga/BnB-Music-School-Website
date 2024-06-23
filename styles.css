@@ -35,6 +35,7 @@ nav:hover {
 }
 body {
   background-image: linear-gradient(white, gold);
+  margin: 0px;
 }
 
 #home-images {
